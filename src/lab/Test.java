@@ -17,12 +17,10 @@ public class Test implements  Cloneable{
     public static void main(String args[]) throws CloneNotSupportedException{
 
 
-   Test test =new Test();
-    Test t1 =(Test) test.clone();
-     test.i=20;
-     test.arr[3]=100;
-        System.out.println(test.arr[3]);
-        System.out.println(t1.arr[3]);
+     List<Integer> nums = List.of(1,1,2,3,5,8,13);
+
+
+
 
     }
 

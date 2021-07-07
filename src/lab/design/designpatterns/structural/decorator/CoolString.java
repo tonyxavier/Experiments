@@ -16,11 +16,21 @@ public class CoolString {
     private String string;
 
 
+    public CoolString(String str){
+        string = str;
+    }
+
     public int length(){
 
         return string.length();
     }
 
+
+
+    public boolean isEmpty(){
+
+        return string.isEmpty();
+    }
 
 
 

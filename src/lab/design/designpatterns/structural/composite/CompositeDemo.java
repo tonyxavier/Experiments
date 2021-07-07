@@ -3,7 +3,7 @@ package lab.design.designpatterns.structural.composite;
 
 /*
 
-The inention of Composite pattern is to have the ability to treat a single element as well as a collection of elements
+The definition of Composite pattern is to have the ability to treat a single element as well as a collection of elements
 in a uniform manner. That means Foo and List<Foo> will have the same API
 
 For example, in PowerPoint, you can have a single shape or a group of shapes, can be worked on by the same set of operations, like drag, format etc.
